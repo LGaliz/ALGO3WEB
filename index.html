@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="pokemonApp">
+<head>
+<meta charset="UTF-8">
+	<title>
+	Pokemon	Al GO 3		
+	</title>
+	<script src="node_modules/angular/angular.min.js"></script>
+</head>
+<body ng-controller="pokemonCrl as pokemonCaminar">
+
+<button type="submit" ng-click="pokemonCaminar.moverNorte()">N</button>
+<br>
+<button type="button">O</button> 
+<button type="button">E</button> 
+<br>
+<button type="button">S</button> 
+<br>
+	{{pokemonCaminar.coordenada}}
+	{{pokemonCaminar.atributo}}
+  <script src="pokemonController.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
+
